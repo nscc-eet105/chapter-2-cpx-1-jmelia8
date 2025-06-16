@@ -8,3 +8,8 @@ while True:
     time.sleep(.5)
     cp.red_led = False
     time.sleep(.5)
+    #neopixel
+    cp.pixels[0] = (0, 100, 0)
+    time.sleep(.5)
+    cp.pixels[0] = (0, 0, 0)
+    time.sleep(.5)
