@@ -13,3 +13,8 @@ while True:
     time.sleep(.5)
     cp.pixels[0] = (0, 0, 0)
     time.sleep(.5)
+    #other neopixel
+    cp.pixels[1] = (0, 60, 40)
+    time.sleep(.5)
+    cp.pixels[1] = (0, 0, 0)
+    time.sleep(.5)
